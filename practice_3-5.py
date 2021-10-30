@@ -1,4 +1,4 @@
-# 거북이로 두 점 사이의 거리 확인하기
+# turtle graphics: 거북이로 두 점 사이의 거리 확인하기
 import turtle
 t = turtle.Pen()
 t.shape("turtle")
