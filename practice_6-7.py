@@ -12,5 +12,5 @@ for i in range(6):   # 6번 반복 (012345)
     t.up()
     t.goto(0,0)
     t.pd()
-
+t.seth(0)   # 거북이 이쁘게 놓기
 t._screen.exitonclick()
