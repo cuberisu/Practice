@@ -1,4 +1,4 @@
-# 주사위 2개 던지기
+# 6 주사위 2개 던지기
 import random
 sq1 = random.randint(1, 6) # 1이랑 6이 포함되는 정수범위의 난수
 sq2 = random.randint(1, 6) # 1이랑 6이 포함되는 정수범위의 난수
