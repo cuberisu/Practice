@@ -12,7 +12,8 @@ def inputmode():
         if name == "q":
             break
         number = input("[입력모드] 전화번호를 입력하세요.: ")
-        phone[name] = number
+        phone[name] = number    # list[key] = value -> key와 value를 연결시킴.
+                                # 새로운 항목 생성 방법 중 하나.
 
 def searchmode():
     while True:
@@ -22,6 +23,9 @@ def searchmode():
             break
         if search_name == "q":
             break
-        print(phone[search_name])
+        if search_name in phone:    # 에러코드 띄우지 않기 위한 장치!!!!
+            print(search_name, "의 전화번호는", phone[search_name])
+        else: 
+            print("등록된 전화번호가 없습니다.")
 
 inputmode()
